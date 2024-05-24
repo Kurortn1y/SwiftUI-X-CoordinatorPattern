@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUI_X_CoordinatorPatternApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CoordinatorView()
         }
     }
 }
+
